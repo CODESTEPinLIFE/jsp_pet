@@ -10,6 +10,9 @@ public class ClothesEntity {
     private String photo;
     private  String email;
 
+    public ClothesEntity() {
+    }
+
     public ClothesEntity(String name_cloth, String brande, String price, String clothesCategory, String status, String photo, String email) {
         this.name_cloth = name_cloth;
         this.brande = brande;
